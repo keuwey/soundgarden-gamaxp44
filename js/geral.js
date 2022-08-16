@@ -42,6 +42,4 @@ formCadastroEvento.addEventListener ('submit', async (event) => {
     }).then((responseOBJ) => {
         console.log(responseOBJ);
     });
-
-
 });
