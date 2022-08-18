@@ -2,7 +2,7 @@ const SOUND_URL = "https://xp41-soundgarden-api.herokuapp.com/events"
 
 const formCadastroEvento = document.getElementById("cadastro-evento");
 
-formCadastroEvento.addEventListener('submit', async (event) => {
+formCadastroEvento.addEventListener('submit', async (event) =>{
     event.preventDefault(); 
 
 const inputNome = document.getElementById("nome");
@@ -23,7 +23,7 @@ const novoEventoObj = {
     "number_tickets": inputLotacao.value
 }
 
-console.log(novoEventoObj)
+console.log(novoEventoObj);
 
 const novoEventoJSON = JSON.stringify(novoEventoObj);
 
@@ -38,6 +38,7 @@ const resposta = fetch(SOUND_URL, {
     return response.json()
 }).then((responseOBJ) => {
     console.log(responseOBJ);
+    window.location.href = ("admin.html")
 });
 
 
