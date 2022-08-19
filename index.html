@@ -33,7 +33,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro aperiam sunt quo similique,
                         dolorum consectetur inventore ipsam, officiis neque natus eius harum alias quidem. Possimus
                         nobis in inventore tenetur asperiores.</p>
-                    <a href="#" class="btn btn-primary">reservar ingresso</a>
+                    <a href="#" class="btn btn-primary modalBtn">reservar ingresso</a>
                 </article>
                 <article class="evento card p-5 m-3">
                     <h2>nome do evento - 05/03/2022</h2>
@@ -41,7 +41,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro aperiam sunt quo similique,
                         dolorum consectetur inventore ipsam, officiis neque natus eius harum alias quidem. Possimus
                         nobis in inventore tenetur asperiores.</p>
-                    <a href="#" class="btn btn-primary">reservar ingresso</a>
+                    <a href="#" class="btn btn-primary modalBtn">reservar ingresso</a>
                 </article>
                 <article class="evento card p-5 m-3">
                     <h2>nome do evento - 05/03/2022</h2>
@@ -49,40 +49,34 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro aperiam sunt quo similique,
                         dolorum consectetur inventore ipsam, officiis neque natus eius harum alias quidem. Possimus
                         nobis in inventore tenetur asperiores.</p>
-                    <a href="#" class="btn btn-primary">reservar ingresso</a>
+                    <a href="#" class="btn btn-primary modalBtn">reservar ingresso</a>
                 </article>
             </div>
+            <!-- MODAL -->
+            <main class="col-9  p-5" id="modal">
+                <div class="my-5">
+                    <h1>Nova reserva</h1>
+                </div>
+                <div>
+                    <form class="col-6" id="cadastro-reserva">
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="nome" aria-describedby="nome">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">E-mail</label>
+                            <input type="text" class="form-control" id="email" aria-describedby="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="ticket" class="form-label">Nº de tickets</label>
+                            <input type="number" class="form-control" id="ticket" aria-describedby="ticket">
+                        </div>
+                        <button type="submit" class="btn btn-primary">enviar</button>
+                    </form>
+                </div>
+            </main>
             <div class="container text-center">
                 <a href="eventos.html" class="btn btn-secondary">ver todos os eventos</a>
-            </div>
-        </section>
-        <section class="full d-flex justify-content-center align-items-center"
-            style="background-color: #f2f2f2; color: #555">
-            <div class="container">
-                <div class="row d-flex justify-content-center align-items-center">
-                    <div class="col">
-                        <h2>A Sound Garden</h2>
-
-                        <p>Sound Garden é uma casa de show super descolada</p>
-
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id autem, fugiat recusandae, totam
-                            inventore harum iste libero obcaecati neque fugit ipsam. Dolorum quae quis odio rem at eum
-                            cumque excepturi.</p>
-                        <p>Alias animi nostrum aperiam sapiente laudantium
-                            corporis esse voluptatem, repellendus nam exercitationem reprehenderit error. Maiores
-                            quibusdam molestias adipisci magni maxime explicabo voluptatibus ipsum delectus, cum soluta
-                            esse ab ducimus. Molestias facilis hic quod similique, voluptate porro architecto itaque
-                            odit dolore temporibus, dignissimos magni delectus in?</p>
-                        <p>Nemo excepturi soluta provident minima amet? Architecto
-                            distinctio molestiae nisi necessitatibus nesciunt possimus dignissimos consequatur iusto
-                            cupiditate quam accusantium tempora odio at deleniti explicabo voluptatum blanditiis natus
-                            qui, dolorem ea eius minima itaque aspernatur? Quia voluptatem ex, mollitia consequuntur
-                            quas incidunt, aliquid explicabo nesciunt hic nobis libero velit at reiciendis.</p>
-                    </div>
-                    <div class="col">
-                        <img src="img/music.svg" width="500px">
-                    </div>
-                </div>
             </div>
         </section>
 
@@ -105,6 +99,7 @@
         </div>
     </footer>
     <script src="./js/index.js"></script>
+    <script src="./js/reservas.js"></script>
 </body>
 
 </html>

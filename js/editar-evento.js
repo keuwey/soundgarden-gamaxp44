@@ -37,7 +37,7 @@ const exibirEvento = async () => {
 }
  exibirEvento();
 
-const formEditar = document.querySelector("#cadastro-evento");
+const formEditar = document.getElementById("cadastro-evento");
 
 formEditar.addEventListener("submit", async (event) => {
 
