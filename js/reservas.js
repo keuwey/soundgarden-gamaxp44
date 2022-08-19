@@ -2,6 +2,15 @@ const SOUND_URL = "https://xp41-soundgarden-api.herokuapp.com/bookings"
 
 const formCadastroReserva = document.getElementById("cadastro-reserva");
 
+const buscaParametro = () => {
+
+    const url = new URL(window.location.href);
+
+    const id = url.searchParams.get('id');
+
+    return id;
+}
+
 formCadastroReserva.addEventListener('submit', async (event) =>{
     event.preventDefault(); 
 
@@ -13,6 +22,7 @@ const novaReservaOBJ = {
     "owner_name": inputNome.value,
     "owner_email": inputEmail.value,
     "number_tickets": inputTickets.value,
+    "event_id": buscaParametro()
 }
 
 console.log(novaReservaOBJ);
