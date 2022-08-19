@@ -7,9 +7,9 @@ Uma casa de show chamada Sound Garden será inaugurada e precisa de um site que 
 
 # Grupo
 
- <li> [Maria Alyce](https://github.com/alyce-developer)
- <li> [Thiago Daniel](https://github.com/thiagodrodrigues)
- <li> [Kevin Halley](https://github.com/keuwey)
+ <li> - [Maria Alyce](https://github.com/alyce-developer)
+ <li> - [Thiago Daniel](https://github.com/thiagodrodrigues)
+ <li> - [Kevin Halley](https://github.com/keuwey)
 
  # Link
 
