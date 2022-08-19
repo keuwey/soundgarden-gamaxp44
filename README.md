@@ -13,7 +13,7 @@ Uma casa de show chamada Sound Garden será inaugurada e precisa de um site que 
 
  # Link
 
-https://thiagodrodrigues.github.io/soundgarden-gamaxp44/
+  <li> https://thiagodrodrigues.github.io/soundgarden-gamaxp44/
  
  # Ferramentas utilizadas 
  <br>
