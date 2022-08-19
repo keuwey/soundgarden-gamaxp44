@@ -29,5 +29,6 @@ const resposta = fetch(SOUND_URL, {
     return response.json()
 }).then((responseOBJ) => {
     console.log(responseOBJ);
+    window.location.href = ("eventos.html")
 });
 });
