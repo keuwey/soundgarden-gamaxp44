@@ -1,6 +1,4 @@
-# Hands On #2!
-
-# Sound Garden :guitar: :musical_note: 
+# Hands On 2 - Sound Garden :guitar: :musical_note:
 
 # Sobre
 
