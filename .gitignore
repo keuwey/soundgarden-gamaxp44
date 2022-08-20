@@ -1,4 +1,2 @@
-# Logs
-logs
-*.log
+.DS_Store
 backup.kdbx
